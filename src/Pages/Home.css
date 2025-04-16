@@ -1,0 +1,104 @@
+.home-container {
+    text-align: center;
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* Hero Section */
+.hero {
+    background: #007BFF;
+    color: white;
+    padding: 50px;
+    border-radius: 8px;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.cta-button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 20px;
+    background: white;
+    color: #007BFF;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: background 0.3s;
+}
+
+.cta-button:hover {
+    background: #0056b3;
+    color: white;
+}
+
+/* About Section */
+.about {
+    margin-top: 30px;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about h2 {
+    color: #333;
+}
+
+.learn-more {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.learn-more:hover {
+    text-decoration: underline;
+}
+
+/* Services Section */
+.services {
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.service-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.service-card {
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    text-align: center;
+}
+
+.service-card h3 {
+    color: #007BFF;
+}
+
+/* Call to Action */
+.cta {
+    background: #333;
+    color: white;
+    padding: 40px;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+
+.cta h2 {
+    font-size: 24px;
+}
+
+.cta p {
+    font-size: 16px;
+}

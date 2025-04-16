@@ -1,0 +1,23 @@
+.product-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.product-list {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.product-card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+}
